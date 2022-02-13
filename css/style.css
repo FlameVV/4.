@@ -1,0 +1,80 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css?family=Kurale:regular");
+
+@font-face {
+	font-family: "RotisSansSerif";
+	src: url("../fonts/RotisSansSerif-ExtraBold.woff2") format("woff2") url("../fonts/RotisSansSerif-ExtraBold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "RotisSansSerif";
+	src: url("../fonts/RotisSansSerif-Lightitalic.woff2") format("woff2") url("../fonts/RotisSansSerif-Lightitalic.woff") format("woff");
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+header {
+	color: rgb(117, 77, 9);
+	font-family: "RotisSansSerif";
+	font-size: 30px;
+	text-decoration: underline;
+	text-align: center;
+}
+.menu {
+	color: turquoise;
+	font-family: "Kurale", "serif";
+	font-size: 30px;
+	text-align: center;
+	text-decoration: line-through;
+	text-shadow: -40px 20px 30px;
+}
+#section1 {
+	color: red;
+	font-size: 50px;
+}
+.main {
+	color: yellowgreen;
+	text-align: center;
+}
+.text {
+	color: brown;
+	font-family: "RotisSansSerif";
+	font-style: italic;
+	text-transform: capitalize;
+	font-size: 22px;
+	font-weight: 300;
+	text-align: center;
+	line-height: 0.8;
+}
+.text_block {
+	font-family: "RotisSansSerif";
+	font-style: oblique;
+	font-size: 23px;
+	font-weight: 700;
+	text-indent: 30px;
+}
+.line {
+	font-family: "RotisSansSerif";
+	font-style: normal;
+	font-size: 24px;
+	color: black;
+	font-weight: 900;
+	text-align: right;
+}
+.text_block {
+	color: ghostwhite;
+	text-align: left;
+	font-size: 29px;
+	text-shadow: 1px 3px 2px darkred;
+}
+h2 {
+	color: darkblue;
+	font-family: "RotisSansSerif";
+	font-style: italic;
+	text-align: center;
+	font-size: 45px;
+	font-weight: 300;
+}
